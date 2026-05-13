@@ -324,24 +324,26 @@ footer::before{content:'';position:absolute;top:0;left:0;right:0;height:1.5px;ba
   /* HERO MOBILE — sem corte */
   .hero{min-height:calc(100vh - 64px);padding-top:64px;padding-bottom:24px;overflow-x:hidden;align-items:flex-start}
   .hero-inner{
-    padding:22px 0 24px;
+    padding:16px 0 20px;
     gap:0;
     grid-template-columns:1fr;
     display:flex;flex-direction:column;
     min-width:0;
-    align-items:flex-start;
+    align-items:center;
     justify-content:flex-start;
     min-height:calc(100vh - 64px);
+    box-sizing:border-box;
   }
   .hero-inner > div:first-child{
     width:100%;
     min-height:100%;
     display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;
-    padding:34px 22px 34px;
-    gap:28px;
+    padding:28px 18px 28px;
+    gap:24px;
     min-width:0;
-    max-width:760px;
+    max-width:100%;
     text-align:left;
+    box-sizing:border-box;
   }
   .hero-note{
     display:flex;
